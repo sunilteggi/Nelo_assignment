@@ -3,6 +3,8 @@
 A full-stack application built with Node.js, Express, MongoDB, and React.
 It provides user authentication (register/login) and a simple frontend interface to access the app.
 
+
+
 ✨ Features
 
 🔑 User Authentication (Register & Login with JWT)
@@ -11,6 +13,8 @@ It provides user authentication (register/login) and a simple frontend interface
 📦 REST API backend with Express & MongoDB
 🗂 Project structured into backend and frontend
 
+
+
 🛠 Tech Stack
 
 Frontend: React, HTML, CSS, JavaScript
@@ -18,8 +22,12 @@ Backend: Node.js, Express.js
 Database: MongoDB (Atlas)
 Authentication: JWT (JSON Web Token)
 
+
+
 ⚙️ Installation & Running
 🔹 Backend (Node.js + Express + MongoDB)
+
+
 
 Navigate to the backend folder:
     cd backend
@@ -28,14 +36,20 @@ Navigate to the backend folder:
 Install dependencies:
     npm install
 
+
+
 Create a .env file inside backend/ with:
     MONGODB_URI=your-mongodb-uri
     JWT_SECRET=nelo-super-secret-key-2024
     PORT=3000
 
+
+
 Run the server:
   npm run dev   # development mode (nodemon)
   npm start     # production mode
+
+
 
 
 🔹 Frontend (React App)
@@ -43,11 +57,17 @@ Run the server:
     cd frontend/nelo-web-app
 
 
+
+
 Install dependencies:
     npm install
+
+
     
 Start the React app:
     npm start
+
+
 
 🔹 Access
     Backend API → http://localhost:3000
